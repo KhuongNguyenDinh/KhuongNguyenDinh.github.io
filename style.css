@@ -1,0 +1,415 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: fontcuatui;
+    src: url(UTM.ttf);
+}
+@font-face {
+    font-family: fontcuatui2;
+    src: url(SFUFuturaRegular.TTF);
+}
+
+.nav{   
+    position: fixed;
+    background-color: rgba(0,0,0,0.1);
+    height: 80px;
+    padding-left: 20px;
+	color: white;
+    width: 100%;
+	font-family: fontcuatui;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.nav ul{
+    float: right;
+    padding-top: 30px;
+}
+
+
+.section1{
+    background-image: url("section1.jpg");
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+    color: black;
+	font-family: fontcuatui;
+}
+
+.section1 button{
+    height: 50px; 
+    width: 150px;
+    border-radius: 8px; 
+    background-color:black;
+	font-family: fontcuatui2;
+	color: white;
+    font-size: 20px;
+}
+
+.section1 h1{
+    font-size: 100px;  
+	color: black;
+}
+
+.section1 p{
+	
+    font-size: 20px;
+    color: black;
+	font-family: fontcuatui2;
+}
+.section2 {
+	background-color: gray;
+    background-size: cover;
+    background-position: center;
+	height: 700px;
+    width: 100%;
+    color: black;
+	font-family: fontcuatui;
+	text-align: left;
+    padding-left: 50px;
+}
+.section2 h1{
+    font-size: 70px;  
+	color: white;
+}
+.section2 p{
+    font-size: 25px;
+    text-align: left;
+    color: white;
+	font-family: fontcuatui2;
+}
+.section2 img{
+    height: 180px;
+    width: 20%;
+    position: relative;
+}
+
+.section3{
+    background-image: url("section2.jpg");
+    background-color: darkblue;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+    color: black;
+}
+
+.section3 h1{
+    font-size: 75px;  
+	color:white;
+	font-family: fontcuatui;
+}
+
+.section3 h3{
+    font-size: 20px;  
+	color:white;
+	font-family: fontcuatui2;
+}
+
+.section3 p{
+	text-align: center;
+    font-size: 25px;
+    color:white;
+	font-family: fontcuatui2;
+}
+
+.outer{
+    list-style-type: none;
+}
+.box{
+    float: right;
+    padding: 5%;
+    margin-top:1%;
+    height: 300px;
+    width: 200px;
+    font-size: 200px;
+    background-color: rgba(70,65,62,0.84);
+    font-family: fontcuatui;
+    color: white;
+}
+
+
+.section4{
+    background-image: url("section3.jpg");
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+    width: 100%;
+    text-align: left;
+    padding-top: 0%;
+    padding-left: 50px;
+    color: black;
+    font-family: fontcuatui;
+}
+
+.section4 .box_1{
+	background-image: url("hinh1.png");
+	background-repeat: no-repeat;
+    background-size:1142px 500px ;
+    text-align: left;
+    float: right;
+    padding: 5%;
+
+    margin-top:5%;
+    height: 300px;
+    width: 950px;
+    font-size: 200px;
+    background-color: red;
+    color: white;
+}
+.section4 .box_1 p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+.section4 .box_1 h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 280px;
+    text-align: justify;
+}
+
+.section4 .box_2{
+    color: white;
+	background-image: url("hinh2.png");
+	background-repeat: no-repeat;
+    background-size:500px 500px ;
+    text-align: left;
+    float: right;
+    padding: 5%;
+    margin-top:5%;
+    height: 300px;
+    width: 300px;
+    font-size: 200px;
+    background-color: red;
+}
+.section4 .box_2 p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+.section4 .box_2 h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 280px;
+    text-align: justify;
+}
+
+.section4 .box_3{
+	background-image: url("hinh3.png");
+	background-repeat: no-repeat;
+    background-size:1150px 500px ;
+
+    text-align: left;
+    float: left;
+    padding: 5%;
+    margin-top: 2%;
+    height: 300px;
+    width: 950px;
+    font-size: 200px;
+    background-color: red;
+}
+
+.section4 .box_3 p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+.section4 .box_3 h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 280px;
+    text-align: left;
+}
+
+.section4 .box_4{
+	background-image: url("hinh4.png");
+	background-repeat: no-repeat;
+    background-size:500px 500px ;
+    text-align: left;
+    float: left;
+    padding: 5%;
+    margin-top: 2%;
+    height: 300px;
+    width: 300px;
+    font-size: 200px;
+	background-color: red;
+}
+.section4 .box_4 p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+.section4 .box_4 h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 280px;
+    text-align: justify;
+}
+
+.section5{
+    background-image: url("section4.jpg");
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+    text-align: left;
+    padding-top: 0%;
+    padding-left: 50px;
+    color: black;
+	font-family: fontcuatui;
+}
+
+.section5 h1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 100px;
+}
+
+.section5 h2{
+    text-align: center;
+	font-family: fontcuatui2;
+}
+
+.section5 h3{
+	font-family: fontcuatui2;
+    margin-left: 35%;
+}
+
+.section5 button{   
+	font-family: fontcuatui;
+    height: 50px; 
+    width: 150px;
+    margin-left: 57.25%;
+    border-radius: 8px; 
+    background-color: black;
+	font-size: 20px;
+	color: white;
+	
+}
+
+input[type=text]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 0.5% 0% 1% 35%;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.section6{
+    background-image: url("section5.jpg");
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    text-align: left;
+    padding-top: 0%;
+    padding-left: 50px;
+    color: black;
+
+}
+.section6 .box_1{
+    background-image: url(bao1.jpg);
+    background-color: rgba(69,64,64,0.91);
+    float: left;
+    height: 500px;
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 3%;
+    text-align: left;
+    color: black;
+}
+.section6 .box_2{
+    background-image: url(bao2.jpg);
+    background-color: rgba(69,64,64,0.91);
+    float: right;
+    margin-top: 3%;
+    margin-right: 202px;
+    height: 500px;
+    width: 800px;
+    text-align: left;
+    color: solid black;
+}
+
+.section6 h1{
+text-align: right;
+font-family: fontcuatui2;
+padding-right: 3%;
+font-size: 18px;
+color: white
+}
+
+.section6 h2{
+text-align: right;   
+font-size: 40px;
+padding-top: 0%;
+padding-right: 3%;
+color: white;
+font-family: fontcuatui;
+}
+
+.section6 h3{
+text-align: right;
+padding-right: 3%;
+font-size: 18px;
+color: rgba(255,255,255,0.77);
+}
+
+.section7 {
+    height:500px;
+}
+.section7 h1{
+    font-size: 50px;
+    font-family: fontcuatui;
+}
+
+.section7 h2{
+    padding-top: 5%;
+    padding-right: 500px;
+    text-align: center;
+    font-family: fontcuatui;
+}
+.section7 h3{
+    padding-right: 500px;
+    text-align: center;
+    font-family: fontcuatui2;
+}
+
+.section7 img{
+    float: left;
+    padding-left: 30%;
+    height: 300px;
+    width: 400px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    font-family: fontcuatui2;
+  }
+
+  footer p{
+    font-size: 20px;
+    font-family: fontcuatui2;
+  }
